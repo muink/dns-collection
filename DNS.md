@@ -14,10 +14,11 @@ OpenNIC						|FR		|juom.technuity.net						|192.95.54.3			|							|						|						
 GreenTeamDNS				|FR		|										|209.88.198.133			|							|						|													|																																				|
 Hurricane Electric DNS		|US		|ordns.he.net							|74.82.42.42			|2001:470:20::2				|						|													|																																				|
 Hurricane Electric DNS		|US		|tserv1.lax1.he.net						|66.220.18.42			|2001:470:0:9d::2			|						|													|																																				|
+IBM Quad9 DNS				|US		|dns.quad9.net							|9.9.9.9				|2620:fe::fe				|dns.quad9.net			|https://dns.quad9.net/dns-query					|	??????																																		|
+IBM Quad9 DNS				|US		|rpz-public-resolver1.rrdns.pch.net		|149.112.112.112		|2620:fe::9					|						|https://dns9.quad9.net/dns-query					|																																				|
 IBM Quad9 DNS				|US		|dns-nosec.quad9.net					|9.9.9.10				|2620:fe::10				|						|													|																																				|
+IBM Quad9 DNS				|US		|dns11.quad9.net						|9.9.9.11				|2620:fe::11				|						|https://dns11.quad9.net/dns-query					|																																				|
 IBM Quad9 DNS				|US		|dns-nosec.quad9.net					|149.112.112.10			|2620:fe::fe:10				|						|													|																																				|
-IBM Quad9 DNS				|US		|dns.quad9.net							|9.9.9.9				|2620:fe::fe				|dns.quad9.net			|https://dns.quad9.net/dns-query					|																																				|
-IBM Quad9 DNS				|US		|rpz-public-resolver1.rrdns.pch.net		|149.112.112.112		|2620:FE::9					|						|													|																																				|
 Google DNS 					|US		|google-public-dns-a.google.com			|8.8.8.8				|2001:4860:4860::8888		|dns.google				|https://dns.google/dns-query						|																																				|
 Google DNS 					|US		|google-public-dns-b.google.com			|8.8.4.4				|2001:4860:4860::8844		|						|													|																																				|
 Comodo Secure DNS 			|US		|ns1.recursive.dnsbycomodo.com			|8.26.56.26				|2a02:1788:8ff::1			|						|													|																																				|
