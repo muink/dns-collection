@@ -49,8 +49,6 @@ QWest						|US		|resolver2.qwest.net					|205.171.2.65			|							|						|							
 Sprintlink					|US		|ns1.sprintlink.net						|204.117.214.10			|							|						|													|																																				|
 Sprintlink					|US		|ns2.sprintlink.net						|199.2.252.10			|							|						|													|																																				|
 Sprintlink					|US		|ns3.sprintlink.net						|204.97.212.10			|							|						|													|																																				|
-DNSReactor					|US		|ns1.dnsreactor.net						|104.236.210.29			|							|						|													|																																				|
-DNSReactor					|US		|ns2.dnsreactor.net						|45.55.155.25			|							|						|													|																																				|
 EqNIC						|US		|www.eqnic.net							|50.116.23.211			|							|						|													|																																				|
 UltraDNS					|US		|udns1.ultradns.net						|204.69.234.1			|							|						|													|																																				|
 UltraDNS					|US		|udns2.ultradns.net						|204.74.101.1			|							|						|													|																																				|
