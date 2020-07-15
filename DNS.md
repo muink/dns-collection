@@ -113,7 +113,7 @@ LG U+						|KR		|										|203.248.242.2			|							|						|													|						
 
 --------
 
-参考:	 
+参考:  
 [台灣各大ISP常用DNS 伺服器](https://note.chiatse.com/2017/08/29/tai-wan-ge-da-ispchang-yong-dns-si-fu-qi-2017-08-29/)  
-[全球免费公共 DNS 解析服务器 IP 地址列表推荐](https://www.iplaysoft.com/public-dns.html)	 
-[Public recursive name server](https://en.wikipedia.org/wiki/Public_recursive_name_server)	
+[全球免费公共 DNS 解析服务器 IP 地址列表推荐](https://www.iplaysoft.com/public-dns.html)  
+[Public recursive name server](https://en.wikipedia.org/wiki/Public_recursive_name_server)  
