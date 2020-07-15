@@ -1,4 +1,4 @@
-DNS							|region	|				NS record				|		A record		|		AAAA record			|		DoT				|						DoH							|																	DNSCrypt																	|
+DNS							|region	|				Host Name				|		A record		|		AAAA record			|		DoT				|						DoH							|																	DNSCrypt																	|
 :---------------------------|:------|:--------------------------------------|:---------------------:|:-------------------------:|:----------------------|:--------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
 Cloudflare Fast Public DNS	|AU		|one.one.one.one						|1.1.1.1				|2606:4700:4700::1111		|cloudflare-dns.com		|https://cloudflare-dns.com/dns-query				|																																				|
 Cloudflare Fast Public DNS	|AU		|1dot1dot1dot1.cloudflare-dns.com		|1.0.0.1				|2606:4700:4700::1001		|						|													|																																				|
@@ -19,10 +19,10 @@ IBM Quad9 DNS				|US		|rpz-public-resolver1.rrdns.pch.net		|149.112.112.112		|26
 IBM Quad9 DNS				|US		|dns-nosec.quad9.net					|9.9.9.10				|2620:fe::10				|						|													|																																				|
 IBM Quad9 DNS				|US		|dns11.quad9.net						|9.9.9.11				|2620:fe::11				|						|https://dns11.quad9.net/dns-query					|																																				|
 IBM Quad9 DNS				|US		|dns-nosec.quad9.net					|149.112.112.10			|2620:fe::fe:10				|						|													|																																				|
-Google DNS 					|US		|google-public-dns-a.google.com			|8.8.8.8				|2001:4860:4860::8888		|dns.google				|https://dns.google/dns-query						|																																				|
-Google DNS 					|US		|google-public-dns-b.google.com			|8.8.4.4				|2001:4860:4860::8844		|						|													|																																				|
-Comodo Secure DNS 			|US		|ns1.recursive.dnsbycomodo.com			|8.26.56.26				|2a02:1788:8ff::1			|						|													|																																				|
-Comodo Secure DNS 			|US		|ns2.recursive.dnsbycomodo.com			|8.20.247.20			|2a02:1788:8ff::2			|						|													|																																				|
+Google DNS					|US		|dns.google								|8.8.8.8				|2001:4860:4860::8888		|dns.google				|https://dns.google/dns-query						|																																				|
+Google DNS					|US		|dns.google								|8.8.4.4				|2001:4860:4860::8844		|						|													|																																				|
+Comodo Secure DNS			|US		|ns1.recursive.dnsbycomodo.com			|8.26.56.26				|2a02:1788:8ff::1			|						|													|																																				|
+Comodo Secure DNS			|US		|ns2.recursive.dnsbycomodo.com			|8.20.247.20			|2a02:1788:8ff::2			|						|													|																																				|
 ORACLE Dyn Public DNS		|US		|rdns.dynect.net						|All					|							|						|													|																																				|
 ORACLE Dyn Public DNS		|US		|resolver1.dyndnsinternetguide.com		|216.146.35.35			|							|						|													|																																				|
 ORACLE Dyn Public DNS		|US		|resolver2.dyndnsinternetguide.com		|216.146.36.36			|							|						|													|																																				|
@@ -36,11 +36,11 @@ Level3 C					|US		|										|4.2.2.3				|							|						|													|									
 Level3 C					|US		|										|4.2.2.4				|							|						|													|																																				|
 Level3 D					|US		|										|4.2.2.5				|							|						|													|																																				|
 Level3 D					|US		|										|4.2.2.6				|							|						|													|																																				|
-CISCO OPEN DNS				|US		|resolver1.opendns.com					|208.67.222.222:5353:443|2620:119:35::35			|						|													|																																				|
+CISCO OPEN DNS				|US		|resolver1.opendns.com					|208.67.222.222:5353:443|2620:119:35::35			|						|https://doh.opendns.com/dns-query					|																																				|
 CISCO OPEN DNS				|US		|resolver2.opendns.com					|208.67.220.220:5353:443|2620:119:53::53			|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver3.opendns.com					|208.67.222.220			|							|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver4.opendns.com					|208.67.220.222			|							|						|													|																																				|
-CISCO OPEN DNS Family		|US		|resolver1-fs.opendns.com				|208.67.222.123:443		|							|						|													|																																				|
+CISCO OPEN DNS Family		|US		|resolver1-fs.opendns.com				|208.67.222.123:443		|							|						|https://doh.familyshield.opendns.com/dns-query		|																																				|
 CISCO OPEN DNS Family		|US		|resolver2-fs.opendns.com				|208.67.220.123:443		|							|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver1.ipv6-sandbox.opendns.com		|						|2620:0:ccc::2				|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver2.ipv6-sandbox.opendns.com		|						|2620:0:ccd::2				|						|													|																																				|
@@ -96,10 +96,10 @@ Yandex Public DNS			|RU		|dns.yandex.ru							|77.88.8.8				|2a02:6b8::feed:0ff	
 Yandex Public DNS			|RU		|secondary.dns.yandex.ru				|77.88.8.1				|2a02:6b8:0:1::feed:0ff		|						|													|																																				|
 SafeDNS						|RU		|dns1.safedns.com						|195.46.39.39			|							|						|													|																																				|
 SafeDNS						|RU		|dns2.safedns.com						|195.46.39.40			|							|						|													|																																				|
-DNS.WATCH					|DE		|resolver1.dns.watch 					|84.200.69.80			|2001:1608:10:25::1c04:b12f	|						|													|																																				|
-DNS.WATCH					|DE		|resolver2.dns.watch 					|84.200.70.40			|2001:1608:10:25::9249:d69b	|						|													|																																				|
-DNS.WATCH					|DE		|resolver1v6.dns.watch 					|						|2001:1608:10:25::1c04:b12f	|						|													|																																				|
-DNS.WATCH					|DE		|resolver2v6.dns.watch 					|						|2001:1608:10:25::9249:d69b	|						|													|																																				|
+DNS.WATCH					|DE		|resolver1.dns.watch					|84.200.69.80			|2001:1608:10:25::1c04:b12f	|						|													|																																				|
+DNS.WATCH					|DE		|resolver2.dns.watch					|84.200.70.40			|2001:1608:10:25::9249:d69b	|						|													|																																				|
+DNS.WATCH					|DE		|resolver1v6.dns.watch					|						|2001:1608:10:25::1c04:b12f	|						|													|																																				|
+DNS.WATCH					|DE		|resolver2v6.dns.watch					|						|2001:1608:10:25::9249:d69b	|						|													|																																				|
 KT olleh					|KR		|kns.kornet.net							|168.126.63.1			|							|						|													|																																				|
 KT olleh					|KR		|kns2.kornet.net						|168.126.63.2			|							|						|													|																																				|
 SK Broadband				|KR		|bns1.hananet.net						|210.220.163.82			|							|						|													|																																				|
@@ -113,7 +113,7 @@ LG U+						|KR		|										|203.248.242.2			|							|						|													|						
 
 --------
 
-参考:  
+参考:	 
 [台灣各大ISP常用DNS 伺服器](https://note.chiatse.com/2017/08/29/tai-wan-ge-da-ispchang-yong-dns-si-fu-qi-2017-08-29/)  
-[全球免费公共 DNS 解析服务器 IP 地址列表推荐](https://www.iplaysoft.com/public-dns.html)  
-[Public recursive name server](https://en.wikipedia.org/wiki/Public_recursive_name_server)  
+[全球免费公共 DNS 解析服务器 IP 地址列表推荐](https://www.iplaysoft.com/public-dns.html)	 
+[Public recursive name server](https://en.wikipedia.org/wiki/Public_recursive_name_server)	
