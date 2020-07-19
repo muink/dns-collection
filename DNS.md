@@ -12,6 +12,12 @@ OrangeDns					|UK		|resolver2.svr.pol.co.uk				|195.92.195.95			|							|						|
 OpenNIC						|FR		|fask.technuity.net						|192.95.54.1			|							|						|													|																																				|
 OpenNIC						|FR		|juom.technuity.net						|192.95.54.3			|							|						|													|																																				|
 GreenTeamDNS				|FR		|										|209.88.198.133			|							|						|													|																																				|
+SmartViper					|US		|										|208.76.50.50			|							|						|													|																																				|
+SmartViper					|US		|										|208.76.51.51			|							|						|													|																																				|
+Alternate DNS				|US		|										|198.101.242.72			|							|						|													|																																				|
+Alternate DNS				|US		|										|23.253.163.53			|							|						|													|																																				|
+UncensoredDNS				|US		|										|91.239.100.100			|							|						|													|																																				|
+UncensoredDNS				|US		|										|89.233.43.71			|							|						|													|																																				|
 Hurricane Electric DNS		|US		|ordns.he.net							|74.82.42.42			|2001:470:20::2				|						|													|																																				|
 Hurricane Electric DNS		|US		|tserv1.lax1.he.net						|66.220.18.42			|2001:470:0:9d::2			|						|													|																																				|
 IBM Quad9 DNS				|US		|dns.quad9.net							|9.9.9.9				|2620:fe::fe				|dns.quad9.net			|https://dns.quad9.net/dns-query					|	??????																																		|
@@ -28,6 +34,18 @@ ORACLE Dyn Public DNS		|US		|resolver1.dyndnsinternetguide.com		|216.146.35.35		
 ORACLE Dyn Public DNS		|US		|resolver2.dyndnsinternetguide.com		|216.146.36.36			|							|						|													|																																				|
 Verisign Public DNS			|US		|recpubns1.nstld.net					|64.6.64.6				|2620:74:1b::1:1			|						|													|																																				|
 Verisign Public DNS			|US		|recpubns2.nstld.net					|64.6.65.6				|2620:74:1c::2:2			|						|													|																																				|
+Norton Secure DNS			|US		|										|199.85.126.10			|							|						|													|																																				|
+Norton Secure DNS			|US		|										|199.85.127.10			|							|						|													|																																				|
+Norton Secure DNS Safe		|US		|										|199.85.126.20			|							|						|													|																																				|
+Norton Secure DNS Safe		|US		|										|199.85.126.20			|							|						|													|																																				|
+Norton Secure DNS Family	|US		|										|199.85.127.30			|							|						|													|																																				|
+Norton Secure DNS Family	|US		|										|199.85.127.30			|							|						|													|																																				|
+Neustar						|US		|										|156.154.70.5			|2610:a1:1018::5			|						|													|																																				|
+Neustar						|US		|										|156.154.71.5			|2610:a1:1019::5			|						|													|																																				|
+Neustar Safe				|US		|										|156.154.70.2			|2610:a1:1018::2			|						|													|																																				|
+Neustar Safe				|US		|										|156.154.71.2			|2610:a1:1019::2			|						|													|																																				|
+Neustar Family				|US		|										|156.154.70.3			|2610:a1:1018::3			|						|													|																																				|
+Neustar Family				|US		|										|156.154.71.3			|2610:a1:1019::3			|						|													|																																				|
 Level3 A					|US		|										|209.244.0.3			|							|						|													|																																				|
 Level3 A					|US		|										|209.244.0.4			|							|						|													|																																				|
 Level3 B					|US		|										|4.2.2.1				|							|						|													|																																				|
@@ -88,6 +106,8 @@ CTM							|MO		|vassun1.macau.ctm.net					|202.175.3.8			|							|						|							
 CTM							|MO		|vassun2.macau.ctm.net					|202.175.3.3			|							|						|													|																																				|
 CleanBrowsing				|IE		|security-filter-dns.cleanbrowsing.org	|185.228.168.9			|2a0d:2a00:1::2				|<----:853				|https://doh.cleanbrowsing.org/doh/security-filter	|																																				|
 CleanBrowsing				|IE		|security-filter-dns2.cleanbrowsing.org	|185.228.169.9			|2a0d:2a00:2::2				|						|													|																																				|
+Freenom World				|NL		|										|80.80.80.80			|							|						|													|																																				|
+Freenom World				|NL		|										|80.80.81.81			|							|						|													|																																				|
 adGuard DNS					|RU		|										|176.103.130.130		|2a00:5a60::ad1:0ff			|dns.adguard.com		|https://dns.adguard.com/dns-query					|sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20		|
 adGuard DNS					|RU		|										|176.103.130.131		|2a00:5a60::ad2:0ff			|						|													|																																				|
 adGuard DNS	Family			|RU		|										|176.103.130.132		|2a00:5a60::bad1:0ff		|dns-family.adguard.com	|https://dns-family.adguard.com/dns-query			|sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ		|
@@ -117,3 +137,4 @@ LG U+						|KR		|										|203.248.242.2			|							|						|													|						
 [台灣各大ISP常用DNS 伺服器](https://note.chiatse.com/2017/08/29/tai-wan-ge-da-ispchang-yong-dns-si-fu-qi-2017-08-29/)  
 [全球免费公共 DNS 解析服务器 IP 地址列表推荐](https://www.iplaysoft.com/public-dns.html)  
 [Public recursive name server](https://en.wikipedia.org/wiki/Public_recursive_name_server)  
+[常用公共DNS](https://github.com/coolsnowwolf/lede/issues/2496)  
