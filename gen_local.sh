@@ -5,7 +5,8 @@ outport='./localdns.yaml'
 
 cat << EOF > "$outport"
 # ipcidr
-# https://github.com/muink/dns-collection/blob/master/localDNS.md
+# Source: https://github.com/muink/dns-collection/blob/master/LocalDNS.yaml
+# Last Modified: `date -u '+%F %T %Z'`
 payload:
 EOF
 
