@@ -1,7 +1,10 @@
 #!/bin/sh
 
-inport='./localDNS.md'
-outport='./localdns.yml'
+CURRENTDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd $CURRENTDIR
+
+inport='LocalDNS.md'
+outport='LocalDNS.yml'
 
 cat << EOF > "$outport"
 # ipcidr
@@ -13,4 +16,4 @@ EOF
 sed -En "3,$ p" "$inport" | cut -f3,4 -d'|' | sed -En "s|\s||g; s/\|/\n/g p" | grep -E [^[:space:]] | sed -En "s|^([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)(:[0-9]+)?$|\1/32|; s|^\[(.+)\](:[0-9]+)?$|\1/128|; p" \
 | sed -E "s|^|  - '|; s|$|'|" >> "$outport"
 
-echo -e "\n" >> "$outport"
+echo >> "$outport"

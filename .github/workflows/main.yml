@@ -1,0 +1,46 @@
+name: Generate rules
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+    - 'LocalDNS.md'
+
+jobs:
+  deploy:
+    name: Generate rules
+    runs-on: ubuntu-latest
+    env:
+      AccessToken: ${{secrets.COMMIT_SECRET}}
+      DeployKey: ${{secrets.ACTIONS_DEPLOY_KEY}}
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup sshkey
+      shell: bash
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$DeployKey" | tr -d '\r' > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+    - name: Init repo
+      shell: bash
+      run: |
+        git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+        #git remote set-url origin https://$AccessToken@github.com/$GITHUB_REPOSITORY.git
+        git remote set-url origin git@github.com:$GITHUB_REPOSITORY.git
+
+    - name: Commit and push files
+      shell: bash
+      env:
+        Branch: master
+        Clash: LocalDNS.yml
+      run: |
+        chmod +x ./gen_local.sh
+        sh ./gen_local.sh
+        git add $Clash
+        git commit -m "Generate new"
+        git push origin $Branch
