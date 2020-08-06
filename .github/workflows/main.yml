@@ -42,5 +42,5 @@ jobs:
         chmod +x ./gen_local.sh
         sh ./gen_local.sh
         git add $Clash
-        git commit -m "Generate new"
+        git commit -m "LocalDNS.yml Update"
         git push origin $Branch
