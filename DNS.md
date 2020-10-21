@@ -1,7 +1,7 @@
 DNS							|region	|				Host Name				|		A record		|		AAAA record				|		DoT				|						DoH							|																	DNSCrypt																	|
 :---------------------------|:------|:--------------------------------------|:---------------------:|:-----------------------------:|:----------------------|:--------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-Cloudflare Fast Public DNS	|AU		|one.one.one.one						|1.1.1.1				|[2606:4700:4700::1111]			|cloudflare-dns.com		|https://cloudflare-dns.com/dns-query				|																																				|
-Cloudflare Fast Public DNS	|AU		|1dot1dot1dot1.cloudflare-dns.com		|1.0.0.1				|[2606:4700:4700::1001]			|						|													|																																				|
+Cloudflare Fast Public DNS	|AU		|1dot1dot1dot1.cloudflare-dns.com		|1.1.1.1				|[2606:4700:4700::1111]			|cloudflare-dns.com		|https://cloudflare-dns.com/dns-query				|																																				|
+Cloudflare Fast Public DNS	|AU		|one.one.one.one						|1.0.0.1				|[2606:4700:4700::1001]			|						|													|																																				|
 Cloudflare Fast Public DNS	|AU		|dns64.cloudflare-dns.com				|						|[2606:4700:4700::64]			|						|													|																																				|
 Cloudflare Fast Public DNS	|AU		|dns64.cloudflare-dns.com				|						|[2606:4700:4700::6400]			|						|													|																																				|
 FreeDNS						|AU		|										|37.235.1.174			|								|						|													|																																				|
@@ -22,9 +22,11 @@ Hurricane Electric DNS		|US		|ordns.he.net							|74.82.42.42			|[2001:470:20::2
 Hurricane Electric DNS		|US		|tserv1.lax1.he.net						|66.220.18.42			|[2001:470:0:9d::2]				|						|													|																																				|
 IBM Quad9 DNS				|US		|dns.quad9.net							|9.9.9.9				|[2620:fe::fe]					|dns.quad9.net			|https://dns.quad9.net/dns-query					|	??????																																		|
 IBM Quad9 DNS				|US		|rpz-public-resolver1.rrdns.pch.net		|149.112.112.112		|[2620:fe::9]					|						|https://dns9.quad9.net/dns-query					|																																				|
-IBM Quad9 DNS				|US		|dns-nosec.quad9.net					|9.9.9.10				|[2620:fe::10]					|						|													|																																				|
+IBM Quad9 DNS				|US		|dns9.quad9.net							|149.112.112.9			|[2620:fe::fe:9]				|						|													|																																				|
+IBM Quad9 DNS				|US		|dns10.quad9.net						|9.9.9.10				|[2620:fe::10]					|						|https://dns10.quad9.net/dns-query					|																																				|
+IBM Quad9 DNS				|US		|dns10.quad9.net						|149.112.112.10			|[2620:fe::fe:10]				|						|													|																																				|
 IBM Quad9 DNS				|US		|dns11.quad9.net						|9.9.9.11				|[2620:fe::11]					|						|https://dns11.quad9.net/dns-query					|																																				|
-IBM Quad9 DNS				|US		|dns-nosec.quad9.net					|149.112.112.10			|[2620:fe::fe:10]				|						|													|																																				|
+IBM Quad9 DNS				|US		|dns11.quad9.net						|149.112.112.11			|[2620:fe::fe:11]				|						|													|																																				|
 Google DNS					|US		|dns.google								|8.8.8.8				|[2001:4860:4860::8888]			|dns.google				|https://dns.google/dns-query						|																																				|
 Google DNS					|US		|dns.google								|8.8.4.4				|[2001:4860:4860::8844]			|						|													|																																				|
 Comodo Secure DNS			|US		|ns1.recursive.dnsbycomodo.com			|8.26.56.26				|[2a02:1788:8ff::1]				|						|													|																																				|
@@ -58,8 +60,8 @@ CISCO OPEN DNS				|US		|resolver1.opendns.com					|208.67.222.222:5353:443|[2620
 CISCO OPEN DNS				|US		|resolver2.opendns.com					|208.67.220.220:5353:443|[2620:119:53::53]				|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver3.opendns.com					|208.67.222.220			|								|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver4.opendns.com					|208.67.220.222			|								|						|													|																																				|
-CISCO OPEN DNS Family		|US		|resolver1-fs.opendns.com				|208.67.222.123:443		|								|						|https://doh.familyshield.opendns.com/dns-query		|																																				|
-CISCO OPEN DNS Family		|US		|resolver2-fs.opendns.com				|208.67.220.123:443		|								|						|													|																																				|
+CISCO OPEN DNS Family		|US		|resolver1-fs.opendns.com				|208.67.222.123:443		|[2620:119:35::123]				|						|https://doh.familyshield.opendns.com/dns-query		|																																				|
+CISCO OPEN DNS Family		|US		|resolver2-fs.opendns.com				|208.67.220.123:443		|[2620:119:53::123]				|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver1.ipv6-sandbox.opendns.com		|						|[2620:0:ccc::2]				|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver2.ipv6-sandbox.opendns.com		|						|[2620:0:ccd::2]				|						|													|																																				|
 QWest						|US		|resolver1.qwest.net					|205.171.3.65			|								|						|													|																																				|
@@ -72,7 +74,7 @@ UltraDNS					|US		|udns1.ultradns.net						|204.69.234.1			|								|						|				
 UltraDNS					|US		|udns2.ultradns.net						|204.74.101.1			|								|						|													|																																				|
 中華電信HiNet				|TW		|hntp1.hinet.net						|168.95.192.1			|[2001:b000:168::1]				|						|													|																																				|
 中華電信HiNet				|TW		|dns.hinet.net							|168.95.1.1				|[2001:b000:168::2]				|						|													|																																				|
-TWNIC Quad101 Public DNS	|TW		|twnic-public-dns.twnic.tw				|101.101.101.101		|[2001:de4::101]				|						|													|																																				|
+TWNIC Quad101 Public DNS	|TW		|twnic-public-dns.twnic.tw				|101.101.101.101		|[2001:de4::101]				|						|https://dns.twnic.tw/dns-query						|																																				|
 TWNIC Quad101 Public DNS	|TW		|twnic-public-dns.twnic.tw				|101.102.103.104		|[2001:de4::102]				|						|													|																																				|
 遠傳電信FETnet DNS 北區		|TW		|dns.seed.net.tw						|139.175.55.244			|								|						|													|																																				|
 遠傳電信FETnet DNS 北區		|TW		|dns1.seed.net.tw						|139.175.252.16			|								|						|													|																																				|
@@ -108,10 +110,12 @@ CleanBrowsing				|IE		|security-filter-dns.cleanbrowsing.org	|185.228.168.9			|[
 CleanBrowsing				|IE		|security-filter-dns2.cleanbrowsing.org	|185.228.169.9			|[2a0d:2a00:2::2]				|						|													|																																				|
 Freenom World				|NL		|										|80.80.80.80			|								|						|													|																																				|
 Freenom World				|NL		|										|80.80.81.81			|								|						|													|																																				|
-adGuard DNS					|RU		|										|176.103.130.130		|[2a00:5a60::ad1:0ff]			|dns.adguard.com		|https://dns.adguard.com/dns-query					|sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20		|_
-adGuard DNS					|RU		|										|176.103.130.131		|[2a00:5a60::ad2:0ff]			|						|													|																																				|
-adGuard DNS	Family			|RU		|										|176.103.130.132		|[2a00:5a60::bad1:0ff]			|dns-family.adguard.com	|https://dns-family.adguard.com/dns-query			|sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ		|
-adGuard DNS	Family			|RU		|										|176.103.130.134		|[2a00:5a60::bad2:0ff]			|						|													|																																				|
+adGuard DNS					|RU		|										|94.140.14.140			|[2a10:50c0::1:ff]				|dns-unfiltered.adguard.com|https://dns-unfiltered.adguard.com/dns-query			|																																				|
+adGuard DNS					|RU		|										|94.140.14.141			|[2a10:50c0::2:ff]				|						|													|																																				|
+adGuard DNS					|RU		|										|94.140.14.14			|[2a00:5a60::ad1:0ff]			|dns.adguard.com		|https://dns.adguard.com/dns-query					|sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20		|
+adGuard DNS					|RU		|										|94.140.15.15			|[2a00:5a60::ad2:0ff]			|						|													|																																				|
+adGuard DNS	Family			|RU		|										|94.140.14.15			|[2a00:5a60::bad1:0ff]			|dns-family.adguard.com	|https://dns-family.adguard.com/dns-query			|sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ		|
+adGuard DNS	Family			|RU		|										|94.140.15.16			|[2a00:5a60::bad2:0ff]			|						|													|																																				|
 Yandex Public DNS			|RU		|dns.yandex.ru							|77.88.8.8				|[2a02:6b8::feed:0ff]			|						|													|																																				|
 Yandex Public DNS			|RU		|secondary.dns.yandex.ru				|77.88.8.1				|[2a02:6b8:0:1::feed:0ff]		|						|													|																																				|
 SafeDNS						|RU		|dns1.safedns.com						|195.46.39.39			|								|						|													|																																				|
