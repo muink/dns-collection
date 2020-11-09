@@ -1,6 +1,6 @@
 # ipcidr
 # Source: https://github.com/muink/dns-collection/blob/master/LocalDNS.yml
-# Last Modified: 2020-10-21 14:45:23 UTC
+# Last Modified: 2020-11-09 03:26:57 UTC
 payload:
   - '202.120.2.90/32'
   - '2001:da8:8000:1:202:120:2:90/128'
