@@ -10,7 +10,7 @@ DNS							|			Host Name			|		A record		|			AAAA record				|		DoT				|						DoH		
 中科大DNS教育网				|dns.whnet.edu.cn				|202.112.20.131			|[2001:da8:3000:2000::53]			|						|													|
 阿里DNS						|public1.alidns.com				|223.6.6.6				|[2400:3200:baba::1]				|dns.alidns.com			|https://dns.alidns.com/dns-query?					|
 阿里DNS						|public2.alidns.com				|223.5.5.5				|[2400:3200::1]						|223.6.6.6				|https://223.6.6.6/dns-query?						|
-DNSPod Public DNS+			|pdns.dnspod.cn					|119.29.29.29			|									|						|													|
-DNSPod Public DNS+			|								|182.254.116.116		|									|						|													|
+DNSPod Public DNS+			|pdns.dnspod.cn					|119.29.29.29			|									|dns.pub				|https://dns.pub/dns-query							|
+DNSPod Public DNS+			|								|182.254.116.116		|									|doh.pub				|https://doh.pub/dns-query							|
 114 DNS						|public1.114dns.com				|114.114.114.114		|									|						|													|
 114 DNS						|public2.114dns.com				|114.114.115.115		|									|						|													|
