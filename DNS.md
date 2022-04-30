@@ -58,8 +58,8 @@ Level3 D					|US		|										|4.2.2.5				|								|						|													|								
 Level3 D					|US		|										|4.2.2.6				|								|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver1.opendns.com					|208.67.222.222:5353:443|[2620:119:35::35]				|						|https://doh.opendns.com/dns-query					|																																				|
 CISCO OPEN DNS				|US		|resolver2.opendns.com					|208.67.220.220:5353:443|[2620:119:53::53]				|						|													|																																				|
-CISCO OPEN DNS				|US		|resolver3.opendns.com					|208.67.222.220			|								|						|													|																																				|
-CISCO OPEN DNS				|US		|resolver4.opendns.com					|208.67.220.222			|								|						|													|																																				|
+CISCO OPEN DNS				|US		|resolver3.opendns.com					|208.67.222.220:5353:443|								|						|													|																																				|
+CISCO OPEN DNS				|US		|resolver4.opendns.com					|208.67.220.222:5353:443|								|						|													|																																				|
 CISCO OPEN DNS Family		|US		|resolver1-fs.opendns.com				|208.67.222.123:443		|[2620:119:35::123]				|						|https://doh.familyshield.opendns.com/dns-query		|																																				|
 CISCO OPEN DNS Family		|US		|resolver2-fs.opendns.com				|208.67.220.123:443		|[2620:119:53::123]				|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver1.ipv6-sandbox.opendns.com		|						|[2620:0:ccc::2]				|						|													|																																				|
