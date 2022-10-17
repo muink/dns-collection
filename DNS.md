@@ -56,14 +56,18 @@ Level3 C					|US		|										|4.2.2.3				|								|						|													|								
 Level3 C					|US		|										|4.2.2.4				|								|						|													|																																				|
 Level3 D					|US		|										|4.2.2.5				|								|						|													|																																				|
 Level3 D					|US		|										|4.2.2.6				|								|						|													|																																				|
-CISCO OPEN DNS				|US		|resolver1.opendns.com					|208.67.222.222:5353:443|[2620:119:35::35]				|						|https://doh.opendns.com/dns-query					|																																				|
-CISCO OPEN DNS				|US		|resolver2.opendns.com					|208.67.220.220:5353:443|[2620:119:53::53]				|						|													|																																				|
+CISCO OPEN DNS DoH			|US		|doh.opendns.com						|146.112.41.2:5353:443	|[2620:119:fc::2]				|						|https://doh.opendns.com/dns-query					|																																				|
+CISCO OPEN DNS DoH			|US		|doh.umbrella.com						|146.112.41.5:5353:443	|[2620:119:fc::5]				|						|https://doh.umbrella.com/dns-query					|																																				|
+CISCO OPEN DNS Family DoH	|US		|doh.familyshield.opendns.com			|146.112.41.3:5353:443	|[2620:119:fc::3]				|						|https://doh.familyshield.opendns.com/dns-query		|																																				|
+CISCO OPEN DNS Sandbox DoH	|US		|doh.sandbox.opendns.com				|146.112.41.4:5353:443	|[2620:119:fc::4]				|						|https://doh.sandbox.opendns.com/dns-query			|																																				|
+CISCO OPEN DNS				|US		|resolver1.opendns.com					|208.67.222.222:5353:443|[2620:119:35::35]				|dns.opendns.com		|https://dns.opendns.com/dns-query					|																																				|
+CISCO OPEN DNS				|US		|resolver2.opendns.com					|208.67.220.220:5353:443|[2620:119:53::53]				|dns.umbrella.com		|https://dns.umbrella.com/dns-query					|																																				|
 CISCO OPEN DNS				|US		|resolver3.opendns.com					|208.67.222.220:5353:443|								|						|													|																																				|
 CISCO OPEN DNS				|US		|resolver4.opendns.com					|208.67.220.222:5353:443|								|						|													|																																				|
-CISCO OPEN DNS Family		|US		|resolver1-fs.opendns.com				|208.67.222.123:443		|[2620:119:35::123]				|						|https://doh.familyshield.opendns.com/dns-query		|																																				|
-CISCO OPEN DNS Family		|US		|resolver2-fs.opendns.com				|208.67.220.123:443		|[2620:119:53::123]				|						|													|																																				|
-CISCO OPEN DNS				|US		|resolver1.ipv6-sandbox.opendns.com		|						|[2620:0:ccc::2]				|						|													|																																				|
-CISCO OPEN DNS				|US		|resolver2.ipv6-sandbox.opendns.com		|						|[2620:0:ccd::2]				|						|													|																																				|
+CISCO OPEN DNS Family		|US		|resolver1-fs.opendns.com				|208.67.222.123:5353:443|[2620:119:35::123]				|familyshield.opendns.com|https://familyshield.opendns.com/dns-query		|																																				|
+CISCO OPEN DNS Family		|US		|resolver2-fs.opendns.com				|208.67.220.123:5353:443|[2620:119:53::123]				|						|													|																																				|
+CISCO OPEN DNS Sandbox		|US		|sandbox.opendns.com					|208.67.222.2:5353:443	|[2620:0:ccc::2]				|sandbox.opendns.com	|https://sandbox.opendns.com/dns-query				|																																				|
+CISCO OPEN DNS Sandbox		|US		|sandbox.opendns.com					|208.67.220.2:5353:443	|[2620:0:ccd::2]				|						|													|																																				|
 QWest						|US		|resolver1.qwest.net					|205.171.3.65			|								|						|													|																																				|
 QWest						|US		|resolver2.qwest.net					|205.171.2.65			|								|						|													|																																				|
 Sprintlink					|US		|ns1.sprintlink.net						|204.117.214.10			|								|						|													|																																				|
@@ -72,9 +76,9 @@ Sprintlink					|US		|ns3.sprintlink.net						|204.97.212.10			|								|						|	
 EqNIC						|US		|www.eqnic.net							|50.116.23.211			|								|						|													|																																				|
 UltraDNS					|US		|udns1.ultradns.net						|204.69.234.1			|								|						|													|																																				|
 UltraDNS					|US		|udns2.ultradns.net						|204.74.101.1			|								|						|													|																																				|
-中華電信HiNet				|TW		|hntp1.hinet.net						|168.95.192.1			|[2001:b000:168::1]				|						|													|																																				|
+中華電信HiNet				|TW		|hntp1.hinet.net						|168.95.192.1			|[2001:b000:168::1]				|						|https://dns.hinet.net/dns-query					|																																				|
 中華電信HiNet				|TW		|dns.hinet.net							|168.95.1.1				|[2001:b000:168::2]				|						|													|																																				|
-TWNIC Quad101 Public DNS	|TW		|twnic-public-dns.twnic.tw				|101.101.101.101		|[2001:de4::101]				|						|https://dns.twnic.tw/dns-query						|																																				|
+TWNIC Quad101 Public DNS	|TW		|dns.twnic.tw							|101.101.101.101		|[2001:de4::101]				|dns.twnic.tw			|https://dns.twnic.tw/dns-query						|																																				|
 TWNIC Quad101 Public DNS	|TW		|twnic-public-dns.twnic.tw				|101.102.103.104		|[2001:de4::102]				|						|													|																																				|
 遠傳電信FETnet DNS 北區		|TW		|dns.seed.net.tw						|139.175.55.244			|								|						|													|																																				|
 遠傳電信FETnet DNS 北區		|TW		|dns1.seed.net.tw						|139.175.252.16			|								|						|													|																																				|
