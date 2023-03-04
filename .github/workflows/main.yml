@@ -29,7 +29,7 @@ jobs:
       shell: bash
       run: |
         git config --local user.name "GitHub Action"
-        git config --local user.email "action@github.com"
+        git config --local user.email "actions-user@users.noreply.github.com"
         #git remote set-url origin https://$AccessToken@github.com/$GITHUB_REPOSITORY.git
         git remote set-url origin git@github.com:$GITHUB_REPOSITORY.git
 
