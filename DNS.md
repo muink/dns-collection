@@ -1,4 +1,4 @@
-DNS							|region	|				Host Name				|		A record		|		AAAA record				|		DoT				|						DoH							|																	DNSCrypt																	|
+DNS							|region	|				Host Name				|		A record		|		AAAA record				|		DoT/DoQ			|					DoH/H3							|																	DNSCrypt																	|
 :---------------------------|:------|:--------------------------------------|:---------------------:|:-----------------------------:|:----------------------|:--------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
 Cloudflare Fast Public DNS	|AU		|one.one.one.one						|1.1.1.1				|[2606:4700:4700::1111]			|cloudflare-dns.com		|https://cloudflare-dns.com/dns-query				|																																				|
 Cloudflare Fast Public DNS	|AU		|1dot1dot1dot1.cloudflare-dns.com		|1.0.0.1				|[2606:4700:4700::1001]			|						|													|																																				|
