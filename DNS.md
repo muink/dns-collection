@@ -120,6 +120,8 @@ adGuard DNS					|RU		|										|94.140.14.14			|[2a00:5a60::ad1:0ff]			|dns.adg
 adGuard DNS					|RU		|										|94.140.15.15			|[2a00:5a60::ad2:0ff]			|						|													|																																				|
 adGuard DNS	Family			|RU		|										|94.140.14.15			|[2a00:5a60::bad1:0ff]			|dns-family.adguard.com	|https://dns-family.adguard.com/dns-query			|sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ		|
 adGuard DNS	Family			|RU		|										|94.140.15.16			|[2a00:5a60::bad2:0ff]			|						|													|																																				|
+nextdns						|US		|dns1.nextdns.io						|45.90.28.0				|[2a07:a8c0::]					|dns.nextdns.io			|https://dns.nextdns.io								|																																				|
+nextdns						|US		|dns2.nextdns.io						|45.90.30.0				|[2a07:a8c1::]					|						|													|																																				|
 Yandex Public DNS			|RU		|dns.yandex.ru							|77.88.8.8				|[2a02:6b8::feed:0ff]			|						|													|																																				|
 Yandex Public DNS			|RU		|secondary.dns.yandex.ru				|77.88.8.1				|[2a02:6b8:0:1::feed:0ff]		|						|													|																																				|
 SafeDNS						|RU		|dns1.safedns.com						|195.46.39.39			|								|						|													|																																				|
