@@ -1,6 +1,4 @@
 {
-  "__Source__": "https://github.com/muink/dns-collection/blob/master/LocalDNS.json",
-  "__last_modified__": "2023-12-16 05:52:57 UTC",
   "version": 1,
   "rules": [
     {

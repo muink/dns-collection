@@ -24,8 +24,6 @@ echo >> "$clashout"
 # sing-box
 cat <<-EOF > "$singout"
 	{
-	  "__Source__": "https://github.com/muink/dns-collection/blob/master/LocalDNS.json",
-	  "__last_modified__": "$(date -u '+%F %T %Z')",
 	  "version": 1,
 	  "rules": [
 	    {
